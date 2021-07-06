@@ -4,12 +4,12 @@ class home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: Colors.deepPurple,
+      color: Colors.deepPurple[50],
       child: Center(
         child: Text(
           sayHello(),
           textDirection: TextDirection.ltr,
-          style: TextStyle(color: Colors.white, fontSize: 36.0),
+          style: TextStyle(color: Colors.teal, fontSize: 36.0),
         ),
       ),
     );
